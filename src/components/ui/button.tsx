@@ -9,19 +9,19 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-primary text-primary-foreground hover:bg-primary/90 transition-smooth",
+        default: "bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 ease-smooth",
         destructive:
-          "bg-destructive text-destructive-foreground hover:bg-destructive/90 transition-smooth",
+          "bg-destructive text-destructive-foreground hover:bg-destructive/90 transition-all duration-300 ease-smooth",
         outline:
-          "border border-input bg-background hover:bg-accent hover:text-accent-foreground transition-smooth",
+          "border border-input bg-background hover:bg-accent hover:text-accent-foreground transition-all duration-300 ease-smooth",
         secondary:
-          "bg-secondary text-secondary-foreground hover:bg-secondary/80 transition-smooth",
-        ghost: "hover:bg-accent hover:text-accent-foreground transition-smooth",
-        link: "text-primary underline-offset-4 hover:underline transition-smooth",
-        hero: "bg-gradient-hero text-white hover:shadow-hero hover:scale-105 font-semibold transition-bounce",
-        cta: "bg-gradient-cta text-white hover:shadow-float hover:scale-105 font-semibold transition-bounce",
-        feature: "bg-gradient-feature text-white hover:bg-secondary/90 transition-smooth",
-        success: "bg-success text-success-foreground hover:bg-success/90 transition-smooth",
+          "bg-secondary text-secondary-foreground hover:bg-secondary/80 transition-all duration-300 ease-smooth",
+        ghost: "hover:bg-accent hover:text-accent-foreground transition-all duration-300 ease-smooth",
+        link: "text-primary underline-offset-4 hover:underline transition-all duration-300 ease-smooth",
+        hero: "bg-gradient-hero text-white hover:shadow-hero hover:scale-105 font-semibold transition-all duration-400 ease-bounce",
+        cta: "bg-gradient-cta text-white hover:shadow-float hover:scale-105 font-semibold transition-all duration-400 ease-bounce",
+        feature: "bg-gradient-feature text-white hover:bg-secondary/90 transition-all duration-300 ease-smooth",
+        success: "bg-success text-success-foreground hover:bg-success/90 transition-all duration-300 ease-smooth",
       },
       size: {
         default: "h-10 px-4 py-2",
